@@ -5,14 +5,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebViewClient
 import com.example.mapcamp_common1.databinding.FragmentMyBinding
 
 class MyFragment : Fragment() {
 
     private var _binding: FragmentMyBinding? = null
     private val binding get() = _binding!!
-
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,6 +30,13 @@ class MyFragment : Fragment() {
 
     // 여기를 수정해줘야겠네
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val url="file:///android_asset/index.html"
+
+        binding.webview.apply {
+            webViewClient = WebViewClient()
+            getSettings().setJavaScriptEnabled(true)
+            loadUrl(url)
+        }
 
     }
 
