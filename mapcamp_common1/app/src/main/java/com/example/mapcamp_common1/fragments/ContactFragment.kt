@@ -7,9 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mapcamp_common1.R
 import com.example.mapcamp_common1.databinding.FragmentContactBinding
-import com.example.mapcamp_common1.databinding.FragmentMyBinding
 import com.google.gson.Gson
 import java.io.IOException
 

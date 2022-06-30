@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_contact.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
+        <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_my.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/gallery_item.xml" value="0.536" />
+        <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/list_item.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/hyukkyo/StudioProjects/mapcamp_common1/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/hyukkyo/StudioProjects/mapcamp_common1/app/src/main/res/layout/fragment_my.xml" value="0.2259963768115942" />
         <entry key="..\:/Users/hyukkyo/cs496_common1/mapcamp_common1/app/src/main/res/layout/activity_main.xml" value="0.259375" />
         <entry key="..\:/Users/hyukkyo/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_contact.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/hyukkyo/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_gallery.xml" value="0.20104166666666667" />
-        <entry key="..\:/Users/hyukkyo/cs496_common1/mapcamp_common1/app/src/main/res/layout/list_item.xml" value="0.38645833333333335" />
       </map>
     </option>
   </component>
