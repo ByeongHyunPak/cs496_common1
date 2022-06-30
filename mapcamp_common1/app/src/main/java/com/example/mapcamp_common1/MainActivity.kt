@@ -20,7 +20,19 @@ class MainActivity : AppCompatActivity() {
 
         // 탭 내용물
         TabLayoutMediator(binding.tabs, binding.viewpager) { tab, position ->
-            tab.text = "Title $position"
+            when(position){
+                0->{
+                    tab.text = "연락처"
+                }
+                1->{
+                    tab.text = "갤러리"
+                }
+                2->{
+                    tab.text = "뭐하지"
+                }
+            }
+
+
         }.attach()
     }
 }
