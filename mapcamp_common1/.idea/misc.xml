@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Byeonghyun/AndroidStudioProjects/cs496_common1/mapcamp_common1/app/src/main/res/layout/activity_image.xml" value="0.17553191489361702" />
+        <entry key="..\:/Users/Byeonghyun/AndroidStudioProjects/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_gallery.xml" value="0.17553191489361702" />
+        <entry key="..\:/Users/Byeonghyun/AndroidStudioProjects/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_my.xml" value="0.17553191489361702" />
+        <entry key="..\:/Users/Byeonghyun/AndroidStudioProjects/cs496_common1/mapcamp_common1/app/src/main/res/layout/gallery_item.xml" value="0.17553191489361702" />
+        <entry key="..\:/Users/Byeonghyun/AndroidStudioProjects/cs496_common1/mapcamp_common1/app/src/main/res/layout/slide_item.xml" value="0.17553191489361702" />
         <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_contact.xml" value="0.34739583333333335" />
         <entry key="..\:/Users/Byeonghyun/cs496_common1/mapcamp_common1/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />

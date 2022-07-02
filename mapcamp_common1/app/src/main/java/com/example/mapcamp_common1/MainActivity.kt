@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                     tab.text = "갤러리"
                 }
                 2->{
-                    tab.text = "뭐하지"
+                    tab.text = "공룡런"
                 }
             }
 

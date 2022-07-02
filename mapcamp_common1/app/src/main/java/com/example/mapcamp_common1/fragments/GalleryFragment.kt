@@ -34,42 +34,22 @@ class GalleryFragment : Fragment() {
 
     // 여기를 수정해줘야겠네
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        var dataList = arrayListOf(
+            (R.drawable.img01),(R.drawable.img02),
+            (R.drawable.img03),(R.drawable.img04),
+            (R.drawable.img05),(R.drawable.img06),
+            (R.drawable.img07),(R.drawable.img08),
+            (R.drawable.img09),(R.drawable.img10),
+            (R.drawable.img11),(R.drawable.img12),
+            (R.drawable.img13),(R.drawable.img14),
+            (R.drawable.img15),(R.drawable.img16),
+            (R.drawable.img17),(R.drawable.img18),
+            (R.drawable.img19),(R.drawable.img20),
+        )
 
-//        recyclerView = findViewById(R.id.recyclerView)
-//        recyclerView.layoutManager = GridLayoutManager(this, 2)
-//        photoAdapter = PhotoAdapter(this)
-//        recyclerView.adapter = photoAdapter
-
-        dataList.add(DataModel("Title", R.drawable.img01))
-        dataList.add(DataModel("Title", R.drawable.img02))
-        dataList.add(DataModel("Title", R.drawable.img03))
-        dataList.add(DataModel("Title", R.drawable.img04))
-        dataList.add(DataModel("Title", R.drawable.img05))
-
-        dataList.add(DataModel("Title", R.drawable.img06))
-        dataList.add(DataModel("Title", R.drawable.img07))
-        dataList.add(DataModel("Title", R.drawable.img08))
-        dataList.add(DataModel("Title", R.drawable.img09))
-        dataList.add(DataModel("Title", R.drawable.img10))
-
-        dataList.add(DataModel("Title", R.drawable.img11))
-        dataList.add(DataModel("Title", R.drawable.img12))
-        dataList.add(DataModel("Title", R.drawable.img13))
-        dataList.add(DataModel("Title", R.drawable.img14))
-        dataList.add(DataModel("Title", R.drawable.img15))
-
-        dataList.add(DataModel("Title", R.drawable.img16))
-        dataList.add(DataModel("Title", R.drawable.img17))
-        dataList.add(DataModel("Title", R.drawable.img18))
-        dataList.add(DataModel("Title", R.drawable.img19))
-        dataList.add(DataModel("Title", R.drawable.img20))
-
-        binding.recycleView.apply {
-            layoutManager = GridLayoutManager(context,2)
-            adapter = PhotoAdapter(dataList)
+        binding.gridView.apply {
+            adapter = PhotoAdapter(context, dataList)
         }
-
-
 
     }
 
