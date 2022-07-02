@@ -1,5 +1,7 @@
 package com.example.mapcamp_common1.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -21,10 +23,17 @@ class MyRecyclerViewAdapter(private val dataset: CoronaMed) : RecyclerView.Adapt
     }
 
     class ViewHolder(private val binding: ListItemBinding) : RecyclerView.ViewHolder(binding.root) {
+        private val context = binding.root.context
+
         fun bind(data: CoronaMedItem) {
             with(binding) {
                 tvName.text = data.INST_NM
                 tvPhonenum.text = data.TELNO
+                root.setOnClickListener {
+                    val dialIntent = Intent(Intent.ACTION_DIAL)
+                    dialIntent.data = Uri.parse("tel:" + data.TELNO)
+                    context.startActivity(dialIntent)
+                }
             }
         }
     }
