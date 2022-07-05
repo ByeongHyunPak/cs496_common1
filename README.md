@@ -11,11 +11,9 @@
 
 
 ### TAB2 : 갤러리
-// TODO : IMAGE
 ![그림2](https://user-images.githubusercontent.com/107671359/177318811-8b8d016f-69cd-4b05-9f6a-ae94e9c2f5a3.png)
 
 
 ### TAB3 : 공룡런
-// TODO : IMAGE
 ![그림3](https://user-images.githubusercontent.com/107671359/177318266-3af3af24-8a84-4b27-8156-1ed536752f3d.png)
 
