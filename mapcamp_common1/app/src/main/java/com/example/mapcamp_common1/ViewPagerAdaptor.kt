@@ -19,12 +19,11 @@ class ViewPagerAdaptor(private val dataList: ArrayList<Int>)
 
     override fun getItemCount() = dataList.size
 
-    class ViewHolder(private val binding: SlideItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class ViewHolder(private val binding: SlideItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(data: Int) {
             with (binding) {
                 slideItem.setImageResource(data)
             }
         }
     }
-
 }
