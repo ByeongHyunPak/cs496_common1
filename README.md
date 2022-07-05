@@ -9,7 +9,7 @@
 ![그림1](https://user-images.githubusercontent.com/107671359/177317754-6957ab30-29d3-4422-921b-bd7c384df7d7.png)
 * 연락처가 포함된 JSON 파일을 리사이클러 뷰를 통해 목록에 표시했다.
 * 연락처 항목을 누르면 Dial Intent를 통해 기기에 내장된 전화 앱으로 연결된다.
-* 경기데이터드림(https://data.gg.go.kr/portal/mainPage.do)에서 '경기도선별진료소현황' 파일을 받아와 사용했다.
+* 경기데이터드림(https://data.gg.go.kr/portal/mainPage.do) 에서 '경기도선별진료소현황' 파일을 받아와 사용했다.
 
 
 ### TAB2 : 갤러리
@@ -24,4 +24,4 @@
 ### TAB3 : 공룡런
 ![그림3](https://user-images.githubusercontent.com/107671359/177319319-7c4b2595-09d1-4bfc-a7a6-58295cc596f3.png)
 * Chrome의 T-Rex Runner 탭으로, 모바일에서 간단하게 즐길 수 있도록 했다.
-* T-Rex Runner API(https://github.com/wayou/t-rex-runner)를 Asset 폴더에 저장한 후, WebView로 게임을 보여준다.
+* T-Rex Runner API (https://github.com/wayou/t-rex-runner) 를 Asset 폴더에 저장한 후, WebView로 게임을 보여준다.
