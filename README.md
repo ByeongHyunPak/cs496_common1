@@ -24,4 +24,4 @@
 ### TAB3 : 공룡런
 ![그림3](https://user-images.githubusercontent.com/107671359/177319319-7c4b2595-09d1-4bfc-a7a6-58295cc596f3.png)
 * Chrome의 T-Rex Runner 탭으로, 모바일에서 간단하게 즐길 수 있도록 했다.
-* T-Rex Runner API (https://github.com/wayou/t-rex-runner) 를 Asset 폴더에 저장한 후, WebView로 게임을 보여준다.
+* T-Rex Runner (https://github.com/wayou/t-rex-runner) 를 Asset 폴더에 저장한 후, WebView로 게임을 보여준다.
