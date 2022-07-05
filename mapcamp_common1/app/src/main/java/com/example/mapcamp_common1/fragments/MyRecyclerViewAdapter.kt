@@ -1,9 +1,12 @@
 package com.example.mapcamp_common1.fragments
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mapcamp_common1.databinding.ListItemBinding
 
@@ -29,10 +32,27 @@ class MyRecyclerViewAdapter(private val dataset: CoronaMed) : RecyclerView.Adapt
             with(binding) {
                 tvName.text = data.INST_NM
                 tvPhonenum.text = data.TELNO
-                root.setOnClickListener {
+                itemView.setOnClickListener {
                     val dialIntent = Intent(Intent.ACTION_DIAL)
                     dialIntent.data = Uri.parse("tel:" + data.TELNO)
                     context.startActivity(dialIntent)
+
+                }
+                itemView.setOnLongClickListener() {
+                    AlertDialog.Builder(context).apply {
+                        setTitle("삭제")
+                        setMessage("삭제하시겠습니까?")
+                        setPositiveButton("확인", DialogInterface.OnClickListener { dialog, which ->
+                            Toast.makeText(context, "확인", Toast.LENGTH_SHORT).show()
+                            // TODO
+                            layoutPosition
+                        })
+                        setNegativeButton("취소", DialogInterface.OnClickListener { dialog, which ->
+
+                        })
+                        show()
+                    }
+                    true
                 }
             }
         }
